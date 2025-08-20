@@ -37,6 +37,7 @@ public class LoginPage {
                 ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".oxd-text.oxd-text--h6.oxd-topbar-header-breadcrumb-module")));
         if (successMsg.isDisplayed()) {
             System.out.println("Login Successful!");
+            System.out.println("Login Successful!");
         }
 
         BaseTest base = new BaseTest();
