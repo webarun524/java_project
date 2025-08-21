@@ -31,6 +31,7 @@ public class ExtentTestListener implements ITestListener {
         com.java.base.BaseTest base = new com.java.base.BaseTest();
         String screenshotPath = base.captureScreenshot(result.getMethod().getMethodName());
         test.get().addScreenCaptureFromPath(screenshotPath);
+        System.out.println("Screenshot captured: " + screenshotPath);
     }
 
     @Override
